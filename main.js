@@ -22,7 +22,7 @@ var mainState = {
 
     // jump on space
     var spaceKey = game.input.keyboard.addKey(
-      Phase.Keyboard.SPACEBAR
+      Phaser.Keyboard.SPACEBAR
     );
     spaceKey.onDown.add(this.jump, this);
   },
